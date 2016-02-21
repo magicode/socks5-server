@@ -1,3 +1,5 @@
+process.setuid("socks"); 
+
 var listenPort = process.env.PORT || 1080;
 
 var socks = require('socksv5');
